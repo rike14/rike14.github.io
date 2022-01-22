@@ -1,0 +1,83 @@
+.appointment {
+    background-color: var(--color-primary); 
+    background-image: url(../img/chair-ic.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: right bottom;
+    width: 100%;
+}
+
+.appointment h2 {
+    color: var(--color-primary-light);
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.appointment .img {
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.appointment .personal-data {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 50px;
+}
+
+.appointment .input-wrapper {
+    color: var(--color-primary-light);
+    font-size: 16px;
+    margin: 30px;
+    text-align: left;
+    align-items: center;
+}
+
+.appointment .input-wrapper select {
+    font-size: 16px;
+    padding: 2px 80px;
+    text-align: left;
+    border-radius: 5px;
+    display: block;
+}
+
+.appointment .personal-data input,
+.appointment textarea {
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+
+.appointment .send-msg {
+    text-align: left;
+    margin: 0 80px;
+}
+
+
+.appointment textarea {
+    height: 100px;
+    width: 100%;
+}
+
+.appointment button {
+    padding: 10px 30px;
+    background-color: var(--color-secondary);
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--color-primary-light);
+    border-style: none;
+    margin: 30px 80px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1500px){
+    .appointment .personal-data{
+        flex-direction: column;
+    }
+}

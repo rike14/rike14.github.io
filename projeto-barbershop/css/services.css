@@ -1,0 +1,40 @@
+.services {
+    background-color: var(--color-primary-light);
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.services h2 {
+    font-weight: 400px;
+    font-size: 50px;
+    color: var(--color-secondary);
+    padding-bottom: 20px;
+}
+
+.services .boxes {
+    display: flex;
+}
+
+.services .boxes h4 {
+    color: var(--color-secondary);
+    margin-bottom: 20px;
+}
+
+.services .boxes .box {
+    border: 3px solid var(--color-secondary);
+    font-size: 16px;
+    margin: 50px 40px;
+    padding: 50px;
+}
+
+.services .boxes .box p {
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+@media (max-width: 1000px){
+    .services .boxes{
+        flex-direction: column;
+    }
+}

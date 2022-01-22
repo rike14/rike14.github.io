@@ -1,0 +1,32 @@
+@import "home.css";
+@import "about.css";
+@import "services.css";
+@import "appointment.css";
+@import "gallery.css";
+@import "location.css";
+
+:root {
+    --color-primary: #917758;
+    --color-secondary: #3c2915;
+    --color-primary-light: #f5eee6;
+    --color-location:  #191919;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+    text-align: center;
+    background-color: var(--color-location);
+    color: white;
+    font-size: 12px;
+    padding: 20px;
+}
+

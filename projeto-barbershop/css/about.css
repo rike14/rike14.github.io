@@ -1,0 +1,118 @@
+.about {
+    background: var(--color-primary);
+}
+
+.about .container {
+    display: flex;
+}
+
+.about .timing {
+    width: 33%;
+    background-image: url(../img/brush-big.jpg);
+    background-repeat: no-repeat;
+    padding: 20px;
+    position: relative;
+    top: -50px;
+}
+
+.about .timing .overlay {
+    width: fit-content;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about .timing .icon-cut {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.about .timing h3 {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--color-primary);
+    width: min-content;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.about .timing .text {
+    margin: 30px 0;
+}
+
+.about .timing .text:after {
+    content: '*';
+    color: white;
+    display: block;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.about .timing .text:last-of-type:after {
+    content: '|';
+}
+
+.about .timing .text h4 {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: underline 2px;
+}
+
+.about .timing span {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    display: block;
+}
+
+
+.about .experience {
+    width: 66%;
+    color: white;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.about .experience h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.about .experience h2:after {
+    content: '';
+    display: block;
+    background-color: gray;
+    width: 100px;
+    height: 3px;
+    margin: 20px 0;
+} 
+
+.about .experience .text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .experience p {
+    margin-bottom: 20px;
+    font-weight: 30px;
+    font-size: 20px;
+}
+
+@media (max-width: 800px){
+    .about .container {
+    flex-direction: column;
+}
+    .about .timing{
+        margin: auto auto;
+        width: 300px;
+    }
+    .about .experience .text{
+        display: block;
+    }
+    .about .experience .text img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+}
