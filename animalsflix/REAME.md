@@ -3,6 +3,7 @@
     <img alt="HenriqueDev" title="#HenriqueDev" src="./img/Henrique2.gif" width="90%/>
 </h1>
 
+---
 
 <p align="center">
  <a href="#-about-the-project">About</a> •
@@ -21,9 +22,15 @@
 ## ⚙️ Features
 
 - [x] Functionalities of the page 
-    <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item"  type="text/html" width="640" height="390"
-  src="../video/animalsflixvideo.mp4"
-  frameborder="0"/></div></p>
+                   
+    <h1 align="center">
+        <img alt="Video" title="#Video" src="https://raw.githubusercontent.com/rike14/rike14.github.io/main/animalsflix/video/animalsflixvideo.mp4"/>
+    </h1>
+---
+                                                                                                                                                   
+     <h1 align="center">
+        <img alt="gif" title="#gif" src="./img/animalsflix.gif"/>
+    </h1>
 ---
 
 ## 🛠 Technologies
