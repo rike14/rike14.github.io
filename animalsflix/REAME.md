@@ -22,15 +22,11 @@
 ## ⚙️ Features
 
 - [x] Functionalities of the page 
-                   
-    <h1 align="center">
-        <img alt="Video" title="#Video" src="https://raw.githubusercontent.com/rike14/rike14.github.io/main/animalsflix/video/animalsflixvideo.mp4"/>
-    </h1>
----
                                                                                                                                                    
      <h1 align="center">
-        <img alt="gif" title="#gif" src="./img/animalsflix.gif"/>
-    </h1>
+        <img alt="HenriqueDev" title="#HenriqueDev" src="./img/animalsflix.gif" />
+     </h1>
+     
 ---
 
 ## 🛠 Technologies
