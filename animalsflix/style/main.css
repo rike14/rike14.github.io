@@ -23,11 +23,10 @@ header .container{
     align-items: center;
     justify-content: space-between;
     box-shadow: inset 0 0 1em white, 0 0 2em red;
-    
+    margin: 30px;
 }
 
 header .banner{
-    margin-left: 40px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size:40px; 
@@ -37,7 +36,6 @@ header .banner{
 header nav a{
     text-decoration:none;
     color:#AAA;
-    margin-right: 40px;
 }
 
 
@@ -59,7 +57,7 @@ header nav a:hover{
 }
 
 .photoanimal{
-    margin-bottom: 30px;
+    margin: 30px;
     font-size:16px;    
     height:500px;
     background-size:cover;
