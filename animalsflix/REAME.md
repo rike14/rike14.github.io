@@ -1,9 +1,9 @@
 
 <h1 align="center">
-    <img alt="HenriqueDev" title="#HenriqueDev" src="./img/Henrique2.gif" width="90%/>
+    <img alt="HenriqueDev" title="#HenriqueDev" src="./img/Henrique2.gif"/>
 </h1>
-
----
+                                                                                 
+<br><br>
 
 <p align="center">
  <a href="#-about-the-project">About</a> •
@@ -45,7 +45,7 @@ The following tool was used in building the project:
  <sub><b>Henrique M. Kronhardt</b></sub></a>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Henrique_Kronhardt-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/henriquekronhardt/)] (https://www.linkedin.com/in/henriquekronhardt/)
+[![Linkedin Badge](https://img.shields.io/badge/-Henrique_Kronhardt-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/henriquekronhardt/)](https://www.linkedin.com/in/henriquekronhardt/) 
 
 ---
 
