@@ -40,7 +40,7 @@ The following tool was used in building the project:
 
 ##    Author
 
- <img style="border-radius: 50%;" src="https://www.facebook.com/photo.php?fbid=10222789437744915&set=pb.1244658587.-2207520000..&type=3" width="100px;" alt=""/>
+ <img style="border-radius: 10%;" src="img/Perfil.jpg" width="100px;" alt=""/>
  <br />
  <sub><b>Henrique M. Kronhardt</b></sub></a>
  <br />
