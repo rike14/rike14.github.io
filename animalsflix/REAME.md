@@ -37,6 +37,8 @@ The following tool was used in building the project:
 - **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
 - **[JavaScript](https://www.javascript.com/)**
 
+---
+
 
 ##    Author
 
