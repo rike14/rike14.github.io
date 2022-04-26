@@ -18,7 +18,7 @@ body {
 .avatar img {
     width: 80%;
     height: 400px;
-    margin: 0 auto;
+    margin: 20px auto;
     box-shadow: 0 0 100px white;
     border-radius: 50%;
     transition: all 3000ms ease;
@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-    margin: 20px 0;
+    margin: 20px auto;
     font-size: 60px;
     transition: all 4000ms ease;
 }
