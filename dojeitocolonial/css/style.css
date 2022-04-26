@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-    margin: 0px;
+    margin: 20px 0;
     font-size: 60px;
     transition: all 4000ms ease;
 }
