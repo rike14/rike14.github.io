@@ -1,86 +1,82 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
+}
+
+html css {
+    height: 100%;
 }
 
 body {
-    font-family: 'Satisfy';
+    background: rgb(255, 136, 0);
+    background: linear-gradient(180deg, rgba(255,136,1) 56%, rgba(255,255,255,1) 98%); 
+    color: rgb(0, 0, 0);
+    font-family: 'SnasmW05-Regular';
+    text-align: center;   
 }
-
-div {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.header {
-    background-color: rgb(255, 94, 0);
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.header img {
+    
+.avatar img {
     width: 50%;
+    margin: 20px auto;
+    box-shadow: 0 0 100px white;
+    border-radius: 50%;
+    transition: all 3000ms ease;
 }
 
-.container {
-    display: flex;
+.avatar img:hover{
+    box-shadow: 0 0 100px rgb(0, 0, 0);
 }
 
-.navbar {
-    padding: 5px;
-    width: 20%;
-    background-color: rgb(255, 94, 0);
-    box-shadow: 0 0 20px black;
+h1 {
+    margin: 20px auto;
+    font-size: 60px;
+    transition: all 4000ms ease;
 }
 
-.navbar ul li {
-    background-color: rgb(255, 255, 255);
+h1:hover{
+    font-style: italic;
+}
+
+h2 {
+    padding: 30px;
+    font-size: 30px;
+    font-style: italic;
+    transition: all 2000ms ease;
+}
+
+.social-icons {
     list-style: none;
-    text-align: center;
-    margin: 30px auto;
-    border-radius: 20px 10px;
-    box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
-a {
-    color: rgb(0, 0, 0);
+.social-icons li {
+    margin: 10px;
 }
 
-.content {
+.social-icons li a {
+    background: white;
+    display: block;
+    border-radius: 10px 10px;
     padding: 10px;
-    margin: 0 auto;
-    width: 70%;
+    margin: 40px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+    box-shadow: 0 0 18px white;
 }
 
-.content h1 {
-    font-size: 50px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.content img {
-    width: 200px;
-}
-
-iframe {
-   max-width: 100%;
-}
-
-p {
+.social-icons li a span {
     font-size: 20px;
-    margin: 20px;
+    display: grid;
 }
 
-p img {
-    padding: 20px;
-    margin-right: 50px;
+.social-icons li a img {
+    width: 15%;
 }
 
-.footer {
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
+footer img {
+    box-shadow: 0 0 12px white;
+    margin-top: 70px;
+    width: 100%;
+    height: 30vh;
 }
+
