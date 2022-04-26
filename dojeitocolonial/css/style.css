@@ -20,17 +20,17 @@ body {
     margin: 20px auto;
     box-shadow: 0 0 100px white;
     border-radius: 50%;
-    transition: all 3000ms ease;
+    transition: 3000ms ease;
 }
 
 .avatar img:hover{
-    box-shadow: 0 0 100px rgb(0, 0, 0);
+    box-shadow: 0 0 200px rgb(0, 0, 0);
 }
 
 h1 {
     margin: 20px auto;
     font-size: 60px;
-    transition: all 4000ms ease;
+    transition: 4000ms ease;
 }
 
 h1:hover{
@@ -41,7 +41,7 @@ h2 {
     padding: 30px;
     font-size: 30px;
     font-style: italic;
-    transition: all 2000ms ease;
+    transition: 2000ms ease;
 }
 
 .social-icons {
