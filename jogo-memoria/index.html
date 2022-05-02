@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./src/jogoDaMemoria.js"></script>
+    <script src="./src/util.js"></script>
+    <script src="./src/tela.js"></script>
+    <script src="./index.js"></script>
+  </head>
+  <body class="d-flex justify-content-center" style="width: 100%; max-height: 30px;">
+   
+
+    <br />
+    <div class="row container-fluid">
+      <button type="button" class="btn btn-success" id="jogar">
+        Clique aqui para iniciar
+      </button>
+      <button type="button" class="btn btn-danger" id="mostrarTudo">
+        Mostrar Tudo
+      </button>
+    </div>
+    <div id="carregando" class="row container-fluid invisible">
+      <strong id="contador">Começando em 1 ...</strong>
+      <div
+        
+        class="spinner-border text-warning spinner-border-sm"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+    <div id="conteudo" class="row" style="display:flexbox;"></div>
+
+    
+    <div class="row container-fluid">
+      <div id="mensagem" class="alert alert-success invisible" role="alert">
+        Combinação certa!
+      </div>
+
+      <div class="stars">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div>
+      
+    </div>
+  </body>
+</html>
