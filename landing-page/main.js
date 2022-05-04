@@ -132,6 +132,5 @@ async function callAPI_Products(){
                      .then(responseJSON)
                      .then(listProducts)
                      .catch(error)
-
- console.log(data)
 }
+callAPI_Products()
