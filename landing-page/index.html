@@ -25,7 +25,7 @@
     </div>
     <br>
     <div class="informations">
-        <div>
+        <div class="divInformations">
             <h3>Help the algorithm to be more correct</h3>
             <br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem rem excepturi magnam similique reprehenderit tempore, nulla ipsam vero ut ducimus. Amet perferendis et ea officiis repellendus labore beatae? Sunt, nobis!</p>
@@ -34,22 +34,34 @@
         </div>
         <div>
             <form id="formSendinformationsUser" action="" method="post">
-                <label for="">Your name:</label>
-                <input id="name" type="text">
-                <span class="spanError"></span>
+                <div class="divDisplayBlock">
+                    <label for="">Your name:</label>
+                    <input id="name" type="text">
+                    <span class="spanError"></span>
+                </div>
                 <br>
-                <label for="">E-mail:</label>
-                <input id="email" type="email">
-                <span class="spanError"></span>
+                <div class="divDisplayBlock">
+                    <label for="">E-mail:</label>
+                    <input id="email" type="email">
+                    <span class="spanError"></span>
+                </div>
                 <br>
-                <label for="">CPF:</label>
-                <input id="cpf" type="number">
-                <span class="spanError"></span>
+                <div class="divDisplayBlock">
+                    <label for="">CPF:</label>
+                    <input id="cpf" type="number">
+                    <span class="spanError"></span>
+                </div>
                 <br>
-                <label for="">Male</label>
-                <input id="male" name="gender" type="radio" value="male" checked>
-                <label for="">Female</label>
-                <input id="female" name="gender" type="radio" value="female">
+                <div class="divGender"> 
+                    <div>
+                        <input id="male" name="gender" type="radio" value="male" checked>
+                        <label for="">Male</label>
+                    </div>
+                    <div>
+                        <input id="female" name="gender" type="radio" value="female">
+                        <label for="">Female</label>
+                    </div>
+                </div>
                 <br>
                 <button  type="submit">Send</button>
             </form>

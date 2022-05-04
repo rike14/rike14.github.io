@@ -80,11 +80,23 @@ footer {
 .informations {
     display: flex;
     padding: 15px;
+    margin: 0 50px;
     text-align: center;
     font: normal normal normal 12px/18px Helvetica Neue;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+}
+.divInformations{
+    margin: 0 50px;
+}
+.divDisplayBlock {
+    display: block !important;
+}
+.divGender {
+    margin-left: -25px;
+    justify-content: space-evenly;
+    display: flex;
 }
 .subTitles {
     text-align: center;
