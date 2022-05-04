@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <div class="geometricFigureHome"></div>
+    <div class="home">
+        
+        <p class="textHome">a selection of products</p>
+        <h1 class="textTitle">special for you</h1>
+        <br>
+        <p class="textHome">All products on this list have been selected for your browsing. Enjoy!</p>
+        <br>
+        <div class="buttonsHome">
+            <button>Meet the Linx</button>
+            <button>Help the algorithm</button>
+            <button>Your products</button>
+            <button>Share</button>
+        </div>
+    </div>
+    <br>
+    <div class="informations">
+        <div>
+            <h3>Help the algorithm to be more correct</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem rem excepturi magnam similique reprehenderit tempore, nulla ipsam vero ut ducimus. Amet perferendis et ea officiis repellendus labore beatae? Sunt, nobis!</p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste adipisci maiores quidem qui consectetur nostrum repudiandae amet, voluptates dignissimos voluptas modi veniam. Dolorum et, reiciendis tempore excepturi quis atque laborum.</p>
+        </div>
+        <div>
+            <form id="formSendinformationsUser" action="" method="post">
+                <label for="">Your name:</label>
+                <input id="name" type="text">
+                <span class="spanError"></span>
+                <br>
+                <label for="">E-mail:</label>
+                <input id="email" type="email">
+                <span class="spanError"></span>
+                <br>
+                <label for="">CPF:</label>
+                <input id="cpf" type="number">
+                <span class="spanError"></span>
+                <br>
+                <label for="">Male</label>
+                <input id="male" name="gender" type="radio" value="male" checked>
+                <label for="">Female</label>
+                <input id="female" name="gender" type="radio" value="female">
+                <br>
+                <button  type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <div class="subTitles">
+        <div class="line"></div>
+        <h3>Your selection special</h3>
+        <div class="line"></div>
+    </div>
+    <br>
+
+    <div id="products" class="products">
+
+    </div>
+    <div class="divButtonNextPage">
+        <button id="buttonNextPage" onclick="callAPI_Products()" type="submit">Show more products</button>
+    </div>
+    <br><br>
+    <div class="subTitles">
+        <div class="line"></div>
+        <h3>Share the news</h3>
+        <div class="line"></div>
+    </div>
+        
+
+    <br>
+
+    <p>Want your friends to get their personalized list too? fill it now!</p>
+    <br><br>
+
+    <div class="divSendForFriend">
+            <form id="formSendFriendData" action="" method="post">
+                <div class="divFormSendForFriend">
+                    <div class="sendForfriend">
+                        <label for="">Name your friend:</label>
+                        <input id="inputNameFriend" type="text">
+                        <span class="spanError"></span>
+                    </div>
+                    <div class="sendForfriend">
+                        <label for="">E-mail:</label>
+                        <input id="inputEmailFriend" type="email">
+                        <span class="spanError"></span>
+                    </div>
+                </div>
+                <br>
+                <div class="divbuttonSendFriendData">
+                    <button id="buttonSendFriendData"  type="submit">Send now</button>
+                </div>
+            </form>
+    </div>
+    <br>
+    <div id="snackbar">Data sent successfully!</div>
+    <div class="geometricFigureFooter"></div>
+    <footer>Testing your habilitys of HTML, CSS and JS. <br> Linx impulse <br>2022</footer>
+
+
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>
