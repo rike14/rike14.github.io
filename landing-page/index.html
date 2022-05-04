@@ -34,36 +34,38 @@
         </div>
         <div>
             <form id="formSendinformationsUser" action="" method="post">
-                <div class="divDisplayBlock">
-                    <label for="">Your name:</label>
-                    <input id="name" type="text">
-                    <span class="spanError"></span>
-                </div>
-                <br>
-                <div class="divDisplayBlock">
-                    <label for="">E-mail:</label>
-                    <input id="email" type="email">
-                    <span class="spanError"></span>
-                </div>
-                <br>
-                <div class="divDisplayBlock">
-                    <label for="">CPF:</label>
-                    <input id="cpf" type="number">
-                    <span class="spanError"></span>
-                </div>
-                <br>
-                <div class="divGender"> 
-                    <div>
-                        <input id="male" name="gender" type="radio" value="male" checked>
-                        <label for="">Male</label>
+                <div class="divForm">
+                    <div class="divDisplayBlock">
+                        <label class="divDisplayBlock" for="">Your name:</label>
+                        <input class="divDisplayBlock" id="name" type="text">
+                        <span class="spanError divDisplayBlock"></span>
                     </div>
-                    <div>
-                        <input id="female" name="gender" type="radio" value="female">
-                        <label for="">Female</label>
+                    <br>
+                    <div class="divDisplayBlock">
+                        <label class="divDisplayBlock" for="">E-mail:</label>
+                        <input class="divDisplayBlock" id="email" type="email">
+                        <span class="spanError divDisplayBlock"></span>
+                    </div>
+                    <br>
+                    <div class="divDisplayBlock">
+                        <label class="divDisplayBlock" for="">CPF:</label>
+                        <input class="divDisplayBlock" id="cpf" type="number">
+                        <span class="spanError divDisplayBlock"></span>
+                    </div>
+                    <br>
+                    <div class="divGender"> 
+                        <div class="subDivGender">
+                            <input id="male" name="gender" type="radio" value="male" checked>
+                            <label for="">Male</label>
+                        </div>
+                        <div class="subDivGender">
+                            <input id="female" name="gender" type="radio" value="female">
+                            <label for="">Female</label>
+                        </div>
                     </div>
                 </div>
                 <br>
-                <button  type="submit">Send</button>
+                <button class="buttonSendInformationsUser" type="submit">Send</button>
             </form>
         </div>
     </div>

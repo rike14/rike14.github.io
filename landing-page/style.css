@@ -19,7 +19,8 @@ p {
 }
 form {
     text-align: left;
-    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 button {
     width: 160px;
@@ -54,10 +55,12 @@ footer {
 .geometricFigureHome{
     border-top: 250px solid #2bff01;
     border-left: 300px solid transparent;
+    width: auto;
 }
 .geometricFigureFooter {
     border-top: 100px solid #2bff01;
-    border-right: 300px solid transparent;
+    border-left: 300px solid transparent;
+    width: auto;
 }
 .textTitle {
     text-align: center;
@@ -73,14 +76,13 @@ footer {
     color: #000000;
     opacity: 1;
 }
-.buttonsHome {
+.buttonsHome, .subTitles, .divButtonNextPage, .divSendForFriend, .divbuttonSendFriendData {
     text-align: center;
 }
-
 .informations {
     display: flex;
     padding: 15px;
-    margin: 0 50px;
+    margin: 0 auto;
     text-align: center;
     font: normal normal normal 12px/18px Helvetica Neue;
     letter-spacing: 0px;
@@ -88,30 +90,25 @@ footer {
     opacity: 1;
 }
 .divInformations{
-    margin: 0 50px;
+    margin: 0 auto;
+}
+.divForm {
+    justify-content: center;
 }
 .divDisplayBlock {
     display: block !important;
 }
 .divGender {
-    margin-left: -25px;
-    justify-content: space-evenly;
     display: flex;
 }
-.subTitles {
-    text-align: center;
+.subDivGender {
+    padding-right: 10px;
 }
 .line {
     width: 20%;
     border: 1px solid #000000;
     margin: 3px;
     display: inline-block;
-}
-.divButtonNextPage{
-    text-align: center;
-}
-.divSendForFriend{
-    text-align: center;
 }
 .divFormSendForFriend {
     display: flex;
@@ -125,9 +122,6 @@ footer {
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
-}
-.divbuttonSendFriendData{
-  text-align: center;
 }
 .inputError{
     border: 1px solid red;
@@ -150,14 +144,11 @@ footer {
     font-family: arial;
     padding: 5px;
 }
-
 .price {
     color: #000000;
     font-size: 22px;
-    padding: 5px;
-    
+    padding: 5px;  
 }
-
 .card button {
     border: none;
     outline: 0;
@@ -241,5 +232,18 @@ footer {
     to {
         bottom: 0;
         opacity: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .informations, .divFormSendForFriend {
+        display:block;
+    }
+    .divForm {
+        margin: 20px 20px;
+        text-align: left;
+    }
+    .buttonSendInformationsUser {
+        margin-left: 30px;
     }
 }
