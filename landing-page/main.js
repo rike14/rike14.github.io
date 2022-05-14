@@ -15,8 +15,7 @@ formSendinformationsUser.onsubmit = function (event){
     const inputNameUser = document.getElementById('name')
     const inputEmailUser = document.getElementById('email')
     const inputCpfUser = document.getElementById('cpf')
-    // const inputMale = document.getElementById('male')
-    // const inputFemale = document.getElementById('female')
+
 
 
     if (!inputNameUser.value){
