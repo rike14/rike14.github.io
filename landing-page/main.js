@@ -110,9 +110,9 @@ function listProducts(data){
           <br>
           <p>${element.description}</p>
           <br>
-          <p class="price">From $${element.oldPrice}</p>
+          <p class="price">From <s>$${element.oldPrice}</s></p>
           <p class="price">to $${element.price}</p>
-          <p class="price">Or ${element.installments.count}x of $${element.installments.value}</p>
+          <p class="price">Or ${element.installments.count}x of $${element.installments.value.toFixed(2)}</p>
           <p><button>Buy</button></p>
         </div>
         `
