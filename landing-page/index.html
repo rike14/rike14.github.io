@@ -8,17 +8,19 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <div class="home">    
-        <p class="textHome">a selection of products</p>
-        <h1 class="textTitle">special for you</h1>
-        <br>
-        <p class="textHome">All products on this list have been selected for your browsing. Enjoy!</p>
-        <br>
-        <div class="buttonsHome">
-            <button>Meet the Linx</button>
-            <button>Help the algorithm</button>
-            <button>Your products</button>
-            <button>Share</button>
+    <div class="polygon-home">
+        <div class="home">
+            <p class="textHome">a selection of products</p>
+            <h1 class="textTitle">special for you</h1>
+            <br>
+            <p class="textHome">All products on this list have been selected for your browsing. Enjoy!</p>
+            <br>
+            <div class="buttonsHome">
+                <button>Meet the Linx</button>
+                <button>Help the algorithm</button>
+                <button>Your products</button>
+                <button>Share</button>
+            </div>
         </div>
     </div>
     <br>
@@ -42,25 +44,34 @@
         <div>
             <form id="formSendinformationsUser" action="" method="post">
                 <div class="divForm">
-                    <div class="divDisplayBlock">
-                        <label class="divDisplayBlock" for="">Your name:</label>
-                        <input class="divDisplayBlock" id="name" type="text">
+                    <div class="title">Welcome</div>
+                    <div class="subtitle">Sign up to receive our promotions!</div>
+                    <div class="input-container ic1 divDisplayBlock">
+                        <input id="firstname" class="input" type="text" placeholder=" " />
+                        <div class="cut"></div>
+                        <label for="firstname" class="placeholder">First name</label>
+                        <span class="spanError divDisplayBlock"></span>
+                    </div>
+                    <div class="input-container ic1 divDisplayBlock">
+                        <input id="lastname" class="input" type="text" placeholder=" " />
+                        <div class="cut"></div>
+                        <label for="lastname" class="placeholder">Last name</label>
+                        <span class="spanError divDisplayBlock"></span>
+                    </div>
+                    <div class="input-container ic1 divDisplayBlock">
+                        <input id="email" class="input" type="text" placeholder=" " />
+                        <div class="cut"></div>
+                        <label for="email" class="placeholder">Email</label>
+                        <span class="spanError divDisplayBlock"></span>
+                    </div>
+                    <div class="input-container ic1 divDisplayBlock">
+                        <input class="divDisplayBlock input" id="cpf" type="number" placeholder=" " >
+                        <div class="cut"></div>
+                        <label for="CPF" class="placeholder">CPF</label>
                         <span class="spanError divDisplayBlock"></span>
                     </div>
                     <br>
-                    <div class="divDisplayBlock">
-                        <label class="divDisplayBlock" for="">E-mail:</label>
-                        <input class="divDisplayBlock" id="email" type="email">
-                        <span class="spanError divDisplayBlock"></span>
-                    </div>
-                    <br>
-                    <div class="divDisplayBlock">
-                        <label class="divDisplayBlock" for="">CPF:</label>
-                        <input class="divDisplayBlock" id="cpf" type="number">
-                        <span class="spanError divDisplayBlock"></span>
-                    </div>
-                    <br>
-                    <div class="divGender"> 
+                    <div class="divGender">
                         <div class="subDivGender">
                             <input id="male" name="gender" type="radio" value="male" checked>
                             <label for="">Male</label>
@@ -70,11 +81,11 @@
                             <label for="">Female</label>
                         </div>
                     </div>
+                    <button  class="buttonSendInformationsUser" type="text" class="submit">Send</button>
                 </div>
-                <br>
-                <button class="buttonSendInformationsUser" type="submit">Send</button>
             </form>
         </div>
+
     </div>
     <br>
     <div class="subTitles">

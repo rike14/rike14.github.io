@@ -27,9 +27,9 @@ form {
     padding-right: 10px;
 }
 button {
-    width: 160px;
-    height: 40px;
-    margin: 10px;
+    width: 180px;
+    height: 50px;
+    margin: 15px;
     text-align: center;
     color: #ffffff;
     background: linear-gradient(45deg, #ffffff 0%, #000000 50%);
@@ -39,10 +39,16 @@ button {
     letter-spacing: 0px;
     cursor: pointer;
     opacity: 1;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    outline: 0;
+        
 }
 button:hover{
-    color: white;
-    background-color: #000980fb;
+    opacity: 0.7;
+    background-color: #fffffffb;
     box-shadow: 0px 3px 11px 0px #000000fb;
 }
 footer {
@@ -59,12 +65,15 @@ footer {
     opacity: 1;
     width: 100%;
 }
+.polygon-home {
+    width: 100%;
+    height: 50vh;
+    background-color: #ffffff;
+    background: linear-gradient(45deg, #ffffff 0%, #27c2de 100%);
+    clip-path: polygon(0 0, 100% 0%, 260% 35%, 0 88%);
+}
 .home {
     width: 100%;
-    height: 100vh;
-    background-color: #ffffff ;
-    background: linear-gradient(45deg, #ffffff  0%, #27c2de 100%);
-    clip-path: polygon(0 0, 100% 0%, 260% 35%, 0 88%);
     margin-bottom: 30px;
     opacity: 1;
     padding: 10px;
@@ -90,6 +99,87 @@ footer {
     text-align: center;
     letter-spacing: 0px;
     opacity: 1;
+}
+.form {
+    background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 500px;
+    padding: 20px;
+    width: 320px;
+}
+.title {
+    color: rgb(68, 68, 68);
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.subtitle {
+    color: rgb(68, 68, 68);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+.ic1 {
+    margin-top: 40px;
+}
+.input {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+}
+.cut {
+    background-color: #15172b;
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 90px;
+}
+.input:focus~.cut,
+.input:not(:placeholder-shown)~.cut {
+    transform: translateY(8px);
+}
+.placeholder {
+    color: #65657b;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+}
+
+.input:focus~.placeholder,
+.input:not(:placeholder-shown)~.placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:placeholder-shown)~.placeholder {
+    color: #808097;
+}
+
+.input:focus~.placeholder {
+    color: #dc2f55;
 }
 .divInformations{
     margin: 0 20px;
@@ -133,12 +223,12 @@ footer {
 .products{
     display: flex;
     flex-wrap: wrap;
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    max-width: 250px;
     margin: 10px auto;
     text-align: center;
     font-family: arial;
@@ -163,13 +253,12 @@ footer {
 
 .card button:hover {
     opacity: 0.7;
-    color: #ff0000;
 }
 #snackbar {
     visibility: hidden;
     box-shadow: 0px 4px 16px #000000;
     padding-left: 1rem;
-    background: linear-gradient(45deg, #ffffff 0%, #27c2de 100%);
+    background: linear-gradient(45deg, #ffffff 0%, #005e13 100%);
     border-radius: 1rem;
     font-weight: bold;
     text-align: center;
@@ -234,7 +323,13 @@ footer {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 887px) {
+    .polygon-home {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 460px) {
     h3{
         font-size: 20px;
         flex-wrap: wrap;
@@ -250,6 +345,9 @@ footer {
     input {
         margin: 0 auto;
     }
+    .polygon-home {
+        height: 130vh;
+    }
     .informations, .divFormSendForFriend {
         display:block;
     }
@@ -259,7 +357,19 @@ footer {
         flex-wrap: wrap;
         padding: 20px;
     }
-    .buttonSendInformationsUser {
-        margin-left: 30px;
+
+}
+@media (max-width: 347px) {
+    .polygon-home {
+        height: 150vh;
+    }
+    .informations {
+        margin: 0;
+    }
+    .divForm {
+        margin-left: 0 auto;
+        text-align: left;
+        flex-wrap: wrap;
+        width: 20%;
     }
 }
