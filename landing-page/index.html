@@ -46,32 +46,33 @@
                 <div class="divForm">
                     <div class="title">Welcome</div>
                     <div class="subtitle">Sign up to receive our promotions!</div>
-                    <div class="input-container ic1 divDisplayBlock">
+                    <div class="input-container ic1 divDisplayBlock ">
                         <input id="firstname" class="input" type="text" placeholder=" " />
-                        <div class="cut"></div>
-                        <label for="firstname" class="placeholder">First name</label>
                         <span class="spanError divDisplayBlock"></span>
+                        <div class="cut"></div>
+                        <label id="span" for="firstname" class="placeholder">First name</label>
+                      
                     </div>
-                    <div class="input-container ic1 divDisplayBlock">
+                    <div class="input-container ic1 divDisplayBlock divFormSingle">
                         <input id="lastname" class="input" type="text" placeholder=" " />
+                        <span class="spanError divDisplayBlock"></span>
                         <div class="cut"></div>
                         <label for="lastname" class="placeholder">Last name</label>
-                        <span class="spanError divDisplayBlock"></span>
                     </div>
-                    <div class="input-container ic1 divDisplayBlock">
+                    <div class="input-container ic1 divDisplayBlock divFormSingle">
                         <input id="email" class="input" type="text" placeholder=" " />
+                        <span class="spanError divDisplayBlock"></span>
                         <div class="cut"></div>
                         <label for="email" class="placeholder">Email</label>
-                        <span class="spanError divDisplayBlock"></span>
                     </div>
-                    <div class="input-container ic1 divDisplayBlock">
+                    <div class="input-container ic1 divDisplayBlock divFormSingle">
                         <input class="divDisplayBlock input" id="cpf" type="number" placeholder=" " >
+                        <span class="spanError divDisplayBlock"></span>
                         <div class="cut"></div>
                         <label for="CPF" class="placeholder">CPF</label>
-                        <span class="spanError divDisplayBlock"></span>
                     </div>
                     <br>
-                    <div class="divGender">
+                    <div class="divGender divFormSingle">
                         <div class="subDivGender">
                             <input id="male" name="gender" type="radio" value="male" checked>
                             <label for="">Male</label>
@@ -81,7 +82,10 @@
                             <label for="">Female</label>
                         </div>
                     </div>
+                    
                     <button  class="buttonSendInformationsUser" type="text" class="submit">Send</button>
+
+                    
                 </div>
             </form>
         </div>
@@ -117,19 +121,21 @@
     <div class="divSendForFriend">
             <form id="formSendFriendData" action="" method="post">
                 <div class="divFormSendForFriend">
-                    <div class="sendForfriend">
-                        <label for="">Name your friend:</label>
-                        <input id="inputNameFriend" type="text">
-                        <span class="spanError"></span>
+                    <div class="input-container ic1 divDisplayBlock sendForfriend">
+                        <input class=" input" id="inputNameFriend" type="text" placeholder=" ">
+                        <span class="spanError divDisplayBlock"></span>
+                        <div class="cut" style="width: 170px;"></div>
+                        <label for="Name" class="placeholder">Name your friend:</label>
                     </div>
-                    <div class="sendForfriend">
-                        <label for="">E-mail:</label>
-                        <input id="inputEmailFriend" type="email">
-                        <span class="spanError"></span>
+                    <div class="input-container ic1 divDisplayBlock sendForfriend">
+                        <input class=" input" id="inputEmailFriend" type="email" placeholder=" ">
+                        <span class="spanError divDisplayBlock"></span>
+                        <div class="cut" style="width: 170px;"></div>
+                        <label for="E-mail" class="placeholder">E-mail your friend:</label>
                     </div>
                 </div>
                 <br>
-                <div class="divbuttonSendFriendData">
+                <div class="divbuttonSendFriendData" style="padding-top: 40px;">
                     <button id="buttonSendFriendData"  type="submit">Send now</button>
                 </div>
             </form>

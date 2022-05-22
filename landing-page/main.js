@@ -12,20 +12,31 @@ formSendinformationsUser.onsubmit = function (event){
 
     let haveError = false
 
-    const inputNameUser = document.getElementById('name')
+    const inputFirstNameUser = document.getElementById('firstname')
+    const inputLastNameUser = document.getElementById('lastname')
     const inputEmailUser = document.getElementById('email')
     const inputCpfUser = document.getElementById('cpf')
 
 
 
-    if (!inputNameUser.value){
+    if (!inputFirstNameUser.value){
         haveError = true
-        inputNameUser.classList.add('inputError')
-        let spanError = inputNameUser.nextSibling.nextSibling 
-        spanError.innerText = `Please name cannot null!`
+        inputFirstNameUser.classList.add('inputError')
+        let spanError = inputFirstNameUser.nextSibling.nextSibling 
+        spanError.innerText = `Please first name cannot null!`
     }else {
-        inputNameUser.classList.remove('inputError')
-        let spanError = inputNameUser.nextSibling.nextSibling 
+        inputFirstNameUser.classList.remove('inputError')
+        let spanError = inputFirstNameUser.nextSibling.nextSibling 
+        spanError.innerText = ''
+    }
+    if (!inputLastNameUser.value) {
+        haveError = true
+        inputLastNameUser.classList.add('inputError')
+        let spanError = inputLastNameUser.nextSibling.nextSibling
+        spanError.innerText = `Please last name cannot null!`
+    } else {
+        inputLastNameUser.classList.remove('inputError')
+        let spanError = inputLastNameUser.nextSibling.nextSibling
         spanError.innerText = ''
     }
     if(!inputEmailUser.value){
@@ -52,7 +63,8 @@ formSendinformationsUser.onsubmit = function (event){
 
     if(!haveError){
         toastSnackBar()
-        inputNameUser.value = ''
+        inputFirstNameUser.value = ''
+        inputLastNameUser.value = ''
         inputEmailUser.value = ''
         inputCpfUser. value = ''
     }
