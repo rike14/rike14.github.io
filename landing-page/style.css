@@ -207,6 +207,8 @@ footer {
 .divFormSendForFriend {
     display: flex;
     justify-content: center;
+    width: 60%;
+    margin: 0 auto;
 }
 .sendForfriend {
     margin: 10px;
@@ -336,6 +338,9 @@ footer {
     .polygon-home {
         height: 80vh;
     }
+    .divFormSendForFriend {
+        width: 100%;
+    }
 }
 
 @media (max-width: 460px) {
@@ -375,6 +380,7 @@ footer {
 @media (max-width: 397px) {
     .polygon-home {
         height: 150vh;
+        width: 100%;
     }
     .informations {
         margin: 0;
