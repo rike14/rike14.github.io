@@ -368,9 +368,7 @@ s {
     p {
         font-size: 14px;
         flex-wrap: wrap;
-        margin: 0 auto;
-        padding: 20px;
-        
+        margin: 0 auto;    
     }
     input {
         margin: 0 auto;
@@ -386,6 +384,9 @@ s {
         text-align: left;
         flex-wrap: wrap;
         padding: 20px;
+    }
+    .buttonSendInformationsUser{
+        width: 80%;
     }
     .sendForfriend {
         margin-top: 60px;
