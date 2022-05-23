@@ -9,7 +9,7 @@ h1{
 }
 h3 {
     text-align: center;
-    font-size: 34px;
+    font-size: 28px;
     letter-spacing: 0px;
     opacity: 1;
 }
@@ -26,13 +26,13 @@ form {
     padding-right: 10px;
 }
 button {
-    width: 180px;
+    width: 200px;
     height: 50px;
     margin: 15px;
     text-align: center;
     color: #ffffff;
     background: linear-gradient(45deg, #ffffff 0%, #4d01a3 30%);
-    box-shadow: 0px 1px 6px #000000;
+    box-shadow: 8px 4px 8px 0 rgb(0, 0, 0);
     border: 1px solid #000000;
     border-radius: 4px;
     letter-spacing: 0px;
@@ -46,17 +46,16 @@ button {
         
 }
 button:hover{
-    opacity: 0.7;
+    opacity: 0.8;
     background: linear-gradient(45deg, #ffffff 0%, #4d01a3 30%);
     font-weight: bold;
-    box-shadow: 0px 3px 11px 0px #000000fb;
+    box-shadow: none;
 }
 footer {
     padding-top: 80px;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 14px;
-    color: #ffffff;
     background-color: #ffffff ;
     background: linear-gradient(45deg, #ffffff  10%, #4d01a3 70%);
     clip-path: polygon(0 50%, 100% 0%, 100% 100%, 0% 100%);
@@ -68,7 +67,7 @@ footer {
 }
 .polygon-home {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     background-color: #ffffff;
     background: linear-gradient(45deg, #ffffff 10%, #4d01a3 100%);
     clip-path: polygon(0 0, 100% 0%, 260% 35%, 0 88%);
@@ -78,7 +77,6 @@ footer {
     margin-bottom: 30px;
     opacity: 1;
     padding: 10px;
-    color: #ffffff;
 }
 .textTitle {
     text-align: center;
@@ -188,6 +186,9 @@ footer {
 }
 .divForm {
     justify-content: center;
+    box-shadow: 0 4px 18px 0 rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 15px;
 }
 .divDisplayBlock {
     display: block !important;
@@ -232,7 +233,7 @@ footer {
     justify-content:center ;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    box-shadow: 0 14px 18px 0 rgb(0, 0, 0);
     max-width: 300px;
     margin: 10px 30px;
     text-align: center;
@@ -241,12 +242,25 @@ footer {
 }
 .price {
     font-size: 22px;
-    padding: 5px;  
+    padding: 5px;
+}
+s {
+    color: red;
+}
+.boldPrice {
+    font-weight: bold;
+    display: inline-block;
+    font-size: 26px;
+}
+.newPrice {
+    color: green;
+    font-weight: bold;
 }
 .card button {
     border: none;
+    box-shadow: 8px 4px 8px 0 rgb(0, 0, 0);
     outline: 0;
-    padding: 12px;
+    padding: 15px;
     font-weight: bold;
     color: #ffffff;
     background: linear-gradient(45deg, #ffffff 0%, #4d01a3 30%);
@@ -257,9 +271,9 @@ footer {
 }
 
 .card button:hover {
-    opacity: 0.7;
-    background: linear-gradient(45deg, #ffffff 70%, #4d01a3 30%);
-    color: #4d01a3;
+    font-weight: bold;
+    background: linear-gradient(45deg, #8357b4f8 0%, #4d01a3 100%);
+    box-shadow: none;
 }
 #snackbar {
     visibility: hidden;
@@ -285,6 +299,7 @@ footer {
 .divFormSingle{
     margin-top: 80px;
 }
+
 
 @-webkit-keyframes fadein {
     from {
@@ -334,7 +349,7 @@ footer {
     }
 }
 
-@media (max-width: 887px) {
+@media (max-width: 873px) {
     .polygon-home {
         height: 80vh;
     }
@@ -343,7 +358,7 @@ footer {
     }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 445px) {
     h3{
         font-size: 20px;
         flex-wrap: wrap;

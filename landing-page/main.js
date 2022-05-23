@@ -117,14 +117,14 @@ function listProducts(data){
     products.forEach(element => {
         cardProducts.innerHTML += `
         <div class="card">
-          <img src="${element.image}" style="width:100%">
+          <img src="${element.image}" style="width:70%">
           <h3>${element.name}</h3>
           <br>
           <p>${element.description}</p>
           <br>
           <p class="price">From <s>$${element.oldPrice}</s></p>
-          <p class="price">to $${element.price}</p>
-          <p class="price">Or ${element.installments.count}x of $${element.installments.value.toFixed(2)}</p>
+          <p class="price boldPrice">to <p class="newPrice boldPrice">$${element.price}</p></p>
+          <p class="price ">Or <p class="boldPrice">${element.installments.count}x</p> of <p class="newPrice boldPrice">$${element.installments.value.toFixed(2)}</p></p>
           <p><button>Buy</button></p>
         </div>
         `
