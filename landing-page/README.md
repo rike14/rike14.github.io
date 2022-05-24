@@ -1,7 +1,7 @@
 # Leia em:  -- <a href="#portugues">Português </a> / <span id="portugues">PT</span> -- • -- Read in: -- <a href="#english">English</a> / EN --
 
 <h1 align="center">
-    <img alt="HenriqueDev" title="#HenriqueDev" src="./banner/Henrique2.gif" width="90%"/>
+    <img alt="HenriqueDev" title="#HenriqueDev" src="./src/Henrique2.gif" width="90%"/>
 </h1>
 
 <p align="center">
@@ -13,7 +13,7 @@
 
 ## 💻 Sobre o projeto
 
-💻 Landing Page - Veja essa landing page. :pushpin: :wink:
+💻 Landing Page - Veja essa landing page. Espero que goste!! :pushpin: :wink:
 
 ---
 
@@ -73,7 +73,7 @@ Feito com ❤️ por Henrique M. Kronhardt 👋🏽 [Entre em contato!](https://
 
 ## 💻 About the project
 
-💻 Landing Page - Check out this landing page, hope you like it. :pushpin: :wink:
+💻 Landing Page - Check out this landing page, hope you like it!! :pushpin: :wink:
 
 ---
 
