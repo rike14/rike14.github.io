@@ -21,22 +21,22 @@
 
 - [x] Início:
     <h1 align="center">
-        <video src='./src/home.mp4' width="90%"/>
+        <img alt="Home" title="#home" src="./src/home.gif" width="90%"/>
     </h1>
 
 - [x] Produtos vindo da API:
     <h1 align="center">
-        <video src='./src/products.mp4' width="90%"/>
+        <img alt="products of api" title="#products" src="./src/products.gif" width="90%"/>
     </h1>
 
 - [x] Usuário se registrando para receber promoções:
     <h1 align="center">
-        <video src='./src/form1.mp4' width="90%"/>
+        <img alt="form of user" title="#form1" src="./src/form1.gif" width="90%"/>
     </h1>
 
 - [x] Enviando dados de um amigo:
     <h1 align="center">
-        <video src='./src/form2.mp4' width="90%"/>
+        <img alt="form of friend" title="#form2" src="./src/form2.gif" width="90%"/>
     </h1>
 
 ---
@@ -81,22 +81,22 @@ Feito com ❤️ por Henrique M. Kronhardt 👋🏽 [Entre em contato!](https://
 
 - [x] Home:
     <h1 align="center">
-        <video src='./src/home.mp4' width="90%"/>
+        <img alt="Home" title="#home" src="./src/home.gif" width="90%"/>
     </h1>
 
 - [x] Products from API:
     <h1 align="center">
-        <video src='./src/products.mp4' width="90%"/>
+        <img alt="products of api" title="#products" src="./src/products.gif" width="90%"/>
     </h1>
 
 - [x] User register for receive promotions:
     <h1 align="center">
-        <video src='./src/form1.mp4' width="90%"/>
+       <img alt="form of user" title="#form1" src="./src/form1.gif" width="90%"/>
     </h1>
 
 - [x] The user send data for friend:
     <h1 align="center">
-        <video src='./src/form2.mp4' width="90%"/>
+        <img alt="form of friend" title="#form2" src="./src/form2.gif" width="90%"/>
     </h1>
 
 ---
