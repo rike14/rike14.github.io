@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Teste Desenvolvedor - Target Sistemas</title>
+</head>
+
+<body>
+
+  <h1>Questão 1 de 5</h1>
+
+  <p>Observe o trecho de código abaixo:</p>
+  <div id="question1">
+    <code>int INDICE = 13, SOMA = 0, K = 0;
+    enquanto K < INDICE faça
+    {
+    	K = K + 1;
+    	SOMA = SOMA + K;
+    }
+    imprimir(SOMA);</code>
+  </div>
+  <p>Ao final do processamento, qual será o valor da variável SOMA?</p>
+  <!--SOLUÇÃO QUESTÃO 1-->
+  <h2>Solução da questão</h2>
+  <div id="solution">
+    <p>Resultado: <span id="sumResult"></span></p>
+  </div>
+  <h1>Questão 2 de 5</h1>
+  <p>Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores
+    anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde,
+    informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado
+    pertence ou não a sequência.</p>
+
+  <p>IMPORTANTE:
+    Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no
+    código;</p>
+
+  <!-- SOLUÇÃO QUESTÃO 2 -->
+  <h2>Solução da questão</h2>
+  <div id="solution">
+    <label for="number-input">Digite um número e veja se ele faz parte da sequência de Fibonacci:</label>
+    <input type="number" id="number-input">
+    <button id="check-button">Confirmar</button>
+    <span id="result"></span>
+  </div>
+  <h1>Questão 3 de 5</h1>
+  <p>Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que
+    desejar, que calcule e retorne:
+  <ul>
+    <li>O menor valor de faturamento ocorrido em um dia do mês;</li>
+    <li>O maior valor de faturamento ocorrido em um dia do mês;</li>
+    <li>Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.</li>
+  </ul>
+  </p>
+  <p>IMPORTANTE:</p>
+  <ol>
+    <li>Usar o json ou xml disponível como fonte dos dados do faturamento mensal;</li>
+    <li>Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no
+      cálculo da média;</li>
+  </ol>
+
+  <!--SOLUÇÃO QUESTÃO 3 -->
+  <h2>Solução da questão</h2>
+  <div id="solution">
+    <p id="total">Total vendido: R$ <span></span></p>
+    <p id="dayMost">O maior valor de faturamento: R$ <span></span></p>
+    <p id="dayLeast"> menor valor de faturamento: R$ <span></span></p>
+    <p id="monthlyAvg">Número de dias no mês em que o valor de faturamento diário foi superior à média mensal:
+      <span></span>
+    </p>
+  </div>
+  <h1>Questão 4 de 5</h1>
+  <p>Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:</p>
+  <ul>
+    <li> SP - R$67.836,43</li>
+    <li> RJ - R$36.678,66</li>
+    <li> MG - R$29.229,88</li>
+    <li> ES - R$27.165,48</li>
+    <li> Outros - R$19.849,53</li>
+  </ul>
+  <p> Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve
+    dentro do valor total mensal da distribuidora.</p>
+
+  <!--SOLUÇÃO DA QUESTÃO 4 -->
+  <h2>Solução da questão:</h2>
+  <div id="solution">
+    <ul id="resultShare">
+      <li> SP: %</li>
+      <li> RJ: %</li>
+      <li> MG: %</li>
+      <li> ES: %</li>
+      <li> Outros: %</li>
+    </ul>
+  </div>
+  <h1>Questão 5 de 5</h1>
+  <p> Escreva um programa que inverta os caracteres de um string.</p>
+  Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente
+  definida no
+  código;
+  Evite usar funções prontas, como, por exemplo, reverse;</p>
+  </ul>
+  <!--SOLUÇÃO DA QUESTÃO 5-->
+  <div id="solution">
+    <h2>Soluçao da questão</h2>
+    <label for="wordInput">Digite uma palavra:</label>
+    <input type="text" id="wordInput">
+    <button id="reverseButton">Reverse</button>
+    <span id="resultReverse"></span>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
